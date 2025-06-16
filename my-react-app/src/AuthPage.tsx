@@ -6,7 +6,7 @@ import { loginSuccess } from './store';
 import { useNavigate } from 'react-router-dom';
 
 const API_BASE = 'http://localhost:5000/api/users';
-const OTP_API_BASE = 'http://localhost:5000/api/otp';
+const OTP_API_BASE = 'http://localhost:5000/api/users';
 
 const AuthPage = () => {
   const dispatch = useDispatch();
